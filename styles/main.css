@@ -1,0 +1,195 @@
+body{
+  background: rgb(255, 255, 255);
+}
+
+h1{
+  color: rgb(255, 255, 255)
+}
+
+header{
+  background: rgb(251, 195, 34);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+h1{
+  font-family: 'Paytone One', sans-serif;
+margin-left: 120px;
+}
+
+h1{
+text-align: center;
+}
+
+h2{
+  font-size: 18px;
+  font-family: 'poppins';
+  font-weight: bold;
+  color: #95b230;
+  display: block;
+}
+
+/* Fond du gadget de la barre de recherche */
+.recherche_p {
+border-width: 1px;   /* Epaisseur de la bordure  */
+
+}
+
+p{
+  color: rgb(0, 0, 0);
+  margin-right: 150px;
+  font-size: 14px;
+  font-family: 'poppins'
+}
+
+ul{
+  list-style-type: none;
+}
+
+/* Champ de saisie */
+#searchthis #search {
+background-color: #ffffff;   /* Couleur de fond */
+border: none;   /* Pas de bordure */
+padding: 4px 15px 4px 15px;
+width: 78.5%;   /* Permet d'ajuster la largeur du champ de saisie à 100% */
+box-sizing: border-box;   /* Important */
+font-family: 'poppins'
+}
+
+#searchthis #search {
+ }
+
+/* Bouton valider */
+#searchthis #search-btn {
+  background-color: #E8B960;   /* Couleur de fond */
+border-style: solid;   /* Style de la bordure  */
+border-width: 1px;   /* Epaisseur de la bordure  */
+border-color: #E8B960;   /* Couleur de la bordure  */
+padding: 5px 10px 5px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+width: 79%;   /* Permet d'ajuster la largeur du bouton à 100% */
+box-sizing: border-box;   /* Important */
+font-family: 'poppins';   /* Police du texte */
+font-size: 13px;   /* Taille de la police du texte */
+font-weight: normal;   /* Graisse du texte : normal = normal ; bold = gras */
+letter-spacing: 2px;   /* Espacement des caractères */
+margin-top: 3px;
+}
+
+#searchthis #search-btn {
+cursor: pointer;
+background-color: #ffffff;   /* Couleur de fond */
+color: #E8B960;   /* Couleur du texte */
+border-color: #95b230;
+}
+
+
+section {
+  display: flex;
+  min-height: 60vh;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 230px;
+  margin-right: 100px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.video {
+  flex-basis: 600px;
+}
+
+.video video{
+  max-width: 600px;
+  width: 100%;
+}
+
+.texte{
+  flex-basis: 420px;
+}
+
+.recherche_p{
+  display: block;
+  margin-right: -20px;
+}
+
+
+.logo{
+  margin-left: 15px;
+}
+
+
+
+.slide{
+margin-top: 30px;
+}
+
+.image-header{
+      display: flex;
+      margin-left: auto;
+      margin-right: auto
+     }
+
+  ul {
+    margin-left: 350px;
+    position: relative;
+
+      align-content: center;
+      flex-direction: row;
+       display: flex;
+       flex-wrap: wrap;
+       padding:0;
+       position: absolute;
+       list-style-type:none;
+       justify-content: center;
+       font-family: 'poppins'
+
+       }
+
+      li {
+       margin-left:10px;
+       }
+      ul li a {
+      display: flex;
+      flex-direction: column;
+       width:150px;
+       background-color:#95b230;
+       color:white;
+       text-decoration:none;
+       text-align:center;
+       padding:8px;
+       }
+
+      ul li a:hover {
+       background-color:#fbc322;
+       }
+
+footer{
+
+    flex-direction: row;
+     flex-wrap: wrap;
+     padding:0;
+     list-style-type:none;
+     justify-content: center;
+     font-family: 'poppins'
+}
+
+footer a {
+margin-top: 70px;
+margin-left: 1210px;
+  display: flex;
+  flex-direction: column;
+   width:150px;
+   background-color:#fbc322;
+   color:white;
+   text-decoration:none;
+   text-align:center;
+   padding:3px;
+   align-items:
+ }
+
+footer a:hover {
+ background-color:#95b230;
+ }
